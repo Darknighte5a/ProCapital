@@ -62,7 +62,7 @@ A modern MetaTrader 5 Expert Advisor focused on professional risk management, po
 ### 🖼️ تصاویر
 
 > screenshots
-> <img width="995" height="586" alt="image" src="https://github.com/user-attachments/assets/fed7af26-fbbd-40c5-a983-cfdfff4e7fe5" />
+<img width="985" height="587" alt="image" src="https://github.com/user-attachments/assets/48db4ed6-c1b0-4d71-b5c3-ceb284c075c5" />
 
 >
 > 
@@ -168,7 +168,7 @@ TRX Wallet:    TDzq7z4ZkQTsAAzRxy1JXKJ985HRhAMKsD
 - Optimized for low resource usage
 
 ### 🖼️ Screenshots
-<img width="995" height="586" alt="image" src="https://github.com/user-attachments/assets/1d6e03a8-67a5-4c05-953e-19ba473dc3af" />
+<img width="985" height="587" alt="image" src="https://github.com/user-attachments/assets/4540f851-e328-4128-aa1f-66bd6ff9c963" />
 
 
 ### ⚙️ Installation
