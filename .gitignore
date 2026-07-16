@@ -1,1 +1,14 @@
+# MetaTrader compiled files
+*.ex5
+*.ex4
 
+# MetaEditor cache
+*.tmp
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
