@@ -74,7 +74,8 @@ A modern MetaTrader 5 Expert Advisor focused on professional risk management, po
 4. اکسپرت را از Navigator روی چارت مورد نظر بکشید.
 5. در تنظیمات EA، گزینه **Allow Algo Trading** را فعال کنید.
 6. از دکمه‌های شناور **Trade** و **Pos** در گوشه چارت برای باز کردن پنل‌ها استفاده کنید.
-
+7. هنگام باز کردن متاتریدر دکمه R را در کیبورد فشار دهید تا اکسپرت در همه ی چارت ها ریست شود و بهم ریختگی اش درست شود.
+8. هر گاهی در چارتی دچار بهم ریختگی یا هنگ شد با فشردن دکمه Ctrl در کیبورد به حالت پیش فرض ریست می شود.
 ### 📋 تنظیمات ورودی (Inputs)
 
 | گروه | پارامتر | توضیح | مقدار پیش‌فرض |
@@ -179,6 +180,8 @@ TRX Wallet:    TDzq7z4ZkQTsAAzRxy1JXKJ985HRhAMKsD
 4. Drag the EA from the Navigator onto your desired chart.
 5. In the EA settings, enable **Allow Algo Trading**.
 6. Use the floating **Trade** and **Pos** buttons at the corner of the chart to open the panels.
+7. When opening MetaTrader, press the R key on the keyboard to reset the Expert Advisor on all charts and fix its mess.
+8. Whenever a chart gets messed up or hangs, pressing the Ctrl key on the keyboard resets it to the default state.
 
 ### 📋 Input Parameters
 
