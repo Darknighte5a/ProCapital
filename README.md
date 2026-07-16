@@ -1,2 +1,157 @@
 # ProCapital
 A modern MetaTrader 5 Expert Advisor focused on professional risk management, position management and fast trade execution through an interactive trading panel.
+<div align="center">
+
+# ⚡ ProCapital
+
+### Advanced MT5 Trading Panel & Risk Management EA
+
+[![Platform](https://img.shields.io/badge/platform-MetaTrader%205-orange.svg)](https://www.metatrader5.com/)
+[![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
+[![Language](https://img.shields.io/badge/language-MQL5-green.svg)](https://www.mql5.com/)
+
+**[فارسی](#فارسی) | [English](#english)**
+
+</div>
+
+---
+
+<a name="فارسی"></a>
+## 🇮🇷 فارسی
+
+### 📖 معرفی
+
+**ProCapital** یک اکسپرت پیشرفته برای متاتریدر ۵ است که یک پنل معاملاتی کامل، حرفه‌ای و بصری روی چارت شما ارائه می‌دهد. این ابزار برای معامله‌گرانی طراحی شده که به دنبال مدیریت ریسک دقیق، اجرای سریع معاملات و کنترل کامل روی پوزیشن‌های باز خود هستند.
+
+### ✨ ویژگی‌های اصلی
+
+#### 🎯 پنل معاملاتی هوشمند
+- محاسبه خودکار حجم معامله (لات) بر اساس درصد ریسک تعیین‌شده
+- پشتیبانی کامل از سفارشات **Market**، **Limit** و **Stop**
+- امکان جابجایی (Drag & Drop) پنل به هر نقطه از چارت
+- نمایش لحظه‌ای اسپرد و مبلغ ریسک
+
+#### 📊 مدیریت پوزیشن (Position Manager)
+- نمایش تمام پوزیشن‌های باز با سود/زیان لحظه‌ای (مبلغ و درصد)
+- دکمه بستن سریع هر پوزیشن با یک کلیک
+- دکمه **Risk-Free** برای انتقال خودکار حد ضرر به نقطه ورود + بافر امن
+- نمایش مجموع سود/زیان کل پوزیشن‌های باز
+
+#### 📈 خطوط تعاملی روی چارت
+- خطوط قابل‌درگ برای **Take Profit**، **Stop Loss**، **Entry** و **Partial Exit**
+- نمایش لحظه‌ای مبلغ سود/زیان هر خط بر حسب دلار
+- محاسبه خودکار نسبت **Risk:Reward**
+
+#### 🎯 خروج پله‌ای (Partial Exit)
+- تعریف یک قیمت هدف برای بستن بخشی از حجم معامله
+- کار می‌کند حتی روی سفارشات Limit/Stop (پس از پر شدن سفارش، قانون به‌صورت خودکار فعال می‌شود)
+- ردیابی مستقل از باز یا بسته بودن پنل
+
+#### 🛡️ مدیریت ریسک حرفه‌ای
+- محدودیت حداکثر ضرر روزانه (خودکار بستن همه پوزیشن‌ها)
+- محدودیت حداکثر سود روزانه (قفل سود)
+- بستن خودکار پوزیشن‌ها قبل از تعطیلات آخر هفته
+- فیلتر ساعت معاملاتی (فقط در بازه‌های مشخص معامله انجام شود)
+
+#### ⏱️ سایر امکانات
+- تایمر شمارش معکوس تا بسته شدن کندل فعلی
+- طراحی رنگی قابل شخصی‌سازی کامل
+- پشتیبانی از چند چارت هم‌زمان با قابلیت ریست گروهی (کلید `R`)
+- بهینه‌سازی شده برای مصرف کم منابع
+
+### 🖼️ تصاویر
+
+> screenshots
+>
+> 
+### ⚙️ نصب و راه‌اندازی
+
+1. فایل `ProCapital.mq5` را دانلود کنید.
+2. آن را در مسیر زیر کپی کنید:
+3. متاتریدر ۵ را باز کرده و از منوی **Navigator**، روی فایل EA راست‌کلیک کرده و **Compile** بزنید (یا در MetaEditor با کلید `F7`).
+4. اکسپرت را از Navigator روی چارت مورد نظر بکشید.
+5. در تنظیمات EA، گزینه **Allow Algo Trading** را فعال کنید.
+6. از دکمه‌های شناور **Trade** و **Pos** در گوشه چارت برای باز کردن پنل‌ها استفاده کنید.
+
+### 📋 تنظیمات ورودی (Inputs)
+
+| گروه | پارامتر | توضیح | مقدار پیش‌فرض |
+|---|---|---|---|
+| **RISK** | `iRisk` | درصد ریسک هر معامله نسبت به بالانس | 0.5 |
+| | `iMaxDayLoss` | حداکثر درصد ضرر مجاز روزانه | 5.0 |
+| | `iMaxDayProfit` | حداکثر درصد سود روزانه (قفل سود) | 15.0 |
+| **FILTERS** | `iTimeFilter` | فعال‌سازی فیلتر ساعت معاملاتی | true |
+| | `iStartHour` / `iEndHour` | بازه ساعتی مجاز معامله | 8 - 20 |
+| | `iCloseWknd` | بستن خودکار قبل از آخر هفته | true |
+| | `iMagic` | شماره مجیک اختصاصی EA | 20240101 |
+| **TIMER** | `iShowTimer` | نمایش تایمر کندل | true |
+| **COLORS** | `iClrBuy` / `iClrSell` | رنگ دکمه‌های خرید/فروش | سبز / قرمز |
+| | `iClrTP` / `iClrSL` | رنگ خطوط TP و SL | سبز / قرمز |
+
+### 🕹️ راهنمای استفاده
+
+- **باز کردن پنل معاملاتی:** دکمه شناور `Trade` گوشه چارت
+- **باز کردن پنل پوزیشن‌ها:** دکمه شناور `Pos` گوشه چارت
+- **ریست کامل پنل (چارت فعلی):** کلید `Ctrl`
+- **ریست همه چارت‌های باز:** کلید `R`
+- **جابجایی پنل‌ها:** روی نوار عنوان (هدر) پنل کلیک نگه‌دارید و بکشید
+- **تنظیم خطوط قیمتی:** روی خط کلیک کرده و به بالا/پایین بکشید
+
+### ⚠️ سلب مسئولیت
+
+این ابزار صرفاً جهت کمک به مدیریت و اجرای سریع‌تر معاملات طراحی شده و **هیچ تضمینی برای سودآوری ندارد**. معامله در بازارهای مالی دارای ریسک از دست دادن سرمایه است. استفاده از این ابزار بر عهده و مسئولیت کامل کاربر است. سازنده هیچ مسئولیتی در قبال ضرر و زیان‌های احتمالی نمی‌پذیرد.
+
+### 📜 مجوز استفاده
+
+این پروژه تحت مجوز اختصاصی منتشر شده است. برای جزئیات به فایل [LICENSE](LICENSE) مراجعه کنید.
+
+### 📞 ارتباط با ما
+
+- **Telegram:** [@Darknighte5a](https://t.me/Darknighte5a)
+
+---
+
+<a name="english"></a>
+## 🇬🇧 English
+
+### 📖 Overview
+
+**ProCapital** is an advanced MetaTrader 5 Expert Advisor that provides a complete, professional, and visual trading panel directly on your chart. It's designed for traders who need precise risk management, fast trade execution, and full control over their open positions.
+
+### ✨ Key Features
+
+#### 🎯 Smart Trading Panel
+- Automatic lot size calculation based on defined risk percentage
+- Full support for **Market**, **Limit**, and **Stop** orders
+- Drag & drop the panel anywhere on the chart
+- Real-time spread and risk amount display
+
+#### 📊 Position Manager
+- View all open positions with live P&L (amount and percentage)
+- One-click close button for each position
+- **Risk-Free** button to automatically move stop-loss to entry + safety buffer
+- Total floating P&L summary of all open positions
+
+#### 📈 Interactive Chart Lines
+- Draggable lines for **Take Profit**, **Stop Loss**, **Entry**, and **Partial Exit**
+- Real-time dollar P&L display on each line
+- Automatic **Risk:Reward** ratio calculation
+
+#### 🎯 Partial Exit System
+- Define a target price to close part of your position's volume
+- Works even with Limit/Stop orders (rule activates automatically once the order is filled)
+- Independent tracking, regardless of panel visibility
+
+#### 🛡️ Professional Risk Management
+- Maximum daily loss limit (auto-closes all positions)
+- Maximum daily profit limit (profit lock)
+- Automatic position closure before weekend
+- Trading hours filter (trade only within a defined time window)
+
+#### ⏱️ Additional Features
+- Candle countdown timer
+- Fully customizable color scheme
+- Multi-chart support with global reset (press `R`)
+- Optimized for low resource usage
+
+### 🖼️ Screenshots
