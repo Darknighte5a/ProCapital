@@ -1,1 +1,48 @@
+3. Open MetaTrader 5, right-click the EA in the **Navigator** panel and select **Compile** (or press `F7` in MetaEditor).
+4. Drag the EA from the Navigator onto your desired chart.
+5. In the EA settings, enable **Allow Algo Trading**.
+6. Use the floating **Trade** and **Pos** buttons at the corner of the chart to open the panels.
 
+### 📋 Input Parameters
+
+| Group | Parameter | Description | Default |
+|---|---|---|---|
+| **RISK** | `iRisk` | Risk percentage per trade relative to balance | 0.5 |
+| | `iMaxDayLoss` | Maximum allowed daily loss percentage | 5.0 |
+| | `iMaxDayProfit` | Maximum daily profit percentage (profit lock) | 15.0 |
+| **FILTERS** | `iTimeFilter` | Enable trading hours filter | true |
+| | `iStartHour` / `iEndHour` | Allowed trading hour range | 8 - 20 |
+| | `iCloseWknd` | Auto-close positions before weekend | true |
+| | `iMagic` | EA's unique magic number | 20240101 |
+| **TIMER** | `iShowTimer` | Show candle countdown timer | true |
+| **COLORS** | `iClrBuy` / `iClrSell` | Buy/Sell button colors | Green / Red |
+| | `iClrTP` / `iClrSL` | TP and SL line colors | Green / Red |
+
+### 🕹️ Usage Guide
+
+- **Open Trade Panel:** Click the floating `Trade` button at the chart corner
+- **Open Position Panel:** Click the floating `Pos` button at the chart corner
+- **Full reset (current chart):** Press `Ctrl`
+- **Reset all open charts:** Press `R`
+- **Move panels:** Click and hold the panel header, then drag
+- **Adjust price lines:** Click on a line and drag it up/down
+
+### ⚠️ Disclaimer
+
+This tool is designed solely to assist with trade management and faster execution and **comes with no guarantee of profitability**. Trading in financial markets carries a risk of capital loss. Use of this tool is entirely at the user's own risk. The developer accepts no responsibility for any losses incurred.
+
+### 📜 License
+
+This project is released under a proprietary license. See the [LICENSE](LICENSE) file for details.
+
+### 📞 Contact
+
+- **Telegram:** [@Darknighte5a](https://t.me/Darknighte5a)
+
+---
+
+<div align="center">
+
+**© 2026 Darknighte5a — All Rights Reserved**
+
+</div>
