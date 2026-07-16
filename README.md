@@ -108,7 +108,11 @@ A modern MetaTrader 5 Expert Advisor focused on professional risk management, po
 ### 📞 ارتباط با ما
 
 - **Telegram:** [@Darknighte5a](https://t.me/Darknighte5a)
-
+### حمایت از من
+آدرس ولت بیت کوین : bc1ql6fwvu4dwsv32fs9tkh454y8hrd0gs6esaade24t9hexwnnq6lkskarqkf
+آدرس لایتینگ : lnbc1p49jdtdpp52d82np6sy49mqgpmy3dmuhk5cfxjlm9sywsfrlralg57fqv42c6qdqqcqzzgxqyz5vqrzjqf0wu22xsefd8gzu0m9n93g2khea86l6yy26en9v46g9e6hk7v9z8m287z05kagmsuqqqqryqqqqthqqpyrzjqfwdd2w9y5ra5z3m4qetfa5ccu6432xfuvk6zrvg9vxwltvukd48dm287z05kagmsuqqqqryqqqqthqqpysp5sxtsp3gmh8rnk3c7hsynqsuq20tnhhv470200tjnk8rnc3q6akls9qrsgqegmhm5w9f2dkdyr6jkltzujqnq3xh2gclt3psmxuk5h7x47mpe63fm9q4533xm6822fm3h59567gmyjah0vynzygpkmsksnhqg0wn2gp383jfc
+آدرس شبکه اتریوم و بی ان بی : 0x2C2f11eF7203D66fEb4c4f594F9f3a2A40394f3e
+آدرس شبکه ترون : TDzq7z4ZkQTsAAzRxy1JXKJ985HRhAMKsD
 ---
 
 <a name="english"></a>
@@ -201,6 +205,15 @@ This project is released under a proprietary license. See the [LICENSE](LICENSE)
 
 - **Telegram:** [@Darknighte5a](https://t.me/Darknighte5a)
 
+###Donate ME
+
+BTC Wallet: bc1ql6fwvu4dwsv32fs9tkh454y8hrd0gs6esaade24t9hexwnnq6lkskarqkf
+
+Lightning Wallet: lnbc1p49jdtdpp52d82np6sy49mqgpmy3dmuhk5cfxjlm9sywsfrlralg57fqv42c6qdqqcqzzgxqyz5vqrzjqf0wu22xsefd8gzu0m9n93g2khea86l6yy26en9v46g9e6hk7v9z8m287z05kagmsuqqqqryqqqqthqqpyrzjqfwdd2w9y5ra5z3m4qetfa5ccu6432xfuvk6zrvg9vxwltvukd48dm287z05kagmsuqqqqryqqqqthqqpysp5sxtsp3gmh8rnk3c7hsynqsuq20tnhhv470200tjnk8rnc3q6akls9qrsgqegmhm5w9f2dkdyr6jkltzujqnq3xh2gclt3psmxuk5h7x47mpe63fm9q4533xm6822fm3h59567gmyjah0vynzygpkmsksnhqg0wn2gp383jfc
+
+Eth and BNB wallet: 0x2C2f11eF7203D66fEb4c4f594F9f3a2A40394f3e
+
+TRX Wallet: TDzq7z4ZkQTsAAzRxy1JXKJ985HRhAMKsD
 ---
 
 <div align="center">
