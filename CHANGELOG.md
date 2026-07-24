@@ -5,6 +5,10 @@ All notable changes to **ProCapital** will be documented in this file.
 فرمت این فایل بر اساس [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) است.
 
 ---
+## [9.42] - 2026-07-24
+
+Bug Fixes
+
 
 ## [9.41] - 2026-01-15
 
